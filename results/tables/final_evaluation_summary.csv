@@ -1,0 +1,5 @@
+Evaluation Dimension,SHAP,LIME,Permutation
+Sanity (Parameter & Label Randomization),PASSED (Random-label Tau: 0.564),PASSED (Random-label Tau: 0.454),PASSED (Random-label Tau: 0.010)
+Faithfulness (Feature Removal AUDC),EXCELLENT (AUDC = 0.212),MODERATE (AUDC = 0.189),VERY GOOD (AUDC = 0.189)
+Stability (Spearman Rank Robustness),HIGH (Spearman = 0.997),MODERATE (Spearman = 0.484),VERY HIGH (Global Spearman = 0.864)
+Agreement (Average Concordance Tau),HIGH (Avg Tau = 0.634),MODERATE (Avg Tau = 0.448),HIGH (Avg Tau = 0.566)

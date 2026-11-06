@@ -1,0 +1,8 @@
+Noise_Level_Epsilon,Explanation_Method,Prediction_Stability_Pct,Mean_Abs_Probability_Shift,Explanation_Stability_Spearman,Explanation_Top3_Overlap
+1%,SHAP,100.0,0.0001,1.0,1.0
+1%,LIME,100.0,0.0001,0.4961,0.5413
+3%,SHAP,100.0,0.0041,0.997,0.9812
+3%,LIME,100.0,0.0041,0.4843,0.5363
+5%,SHAP,98.75,0.0111,0.9924,0.9313
+5%,LIME,98.75,0.0111,0.4841,0.5687
+5% (Global Dataset),Permutation Importance,98.75,0.0111,0.8642,1.0

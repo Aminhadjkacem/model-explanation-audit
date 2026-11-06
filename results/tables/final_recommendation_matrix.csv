@@ -1,0 +1,6 @@
+Dimension,Winner,Key Observation
+Sanity,All (Tied),All three methods depend on learned parameters and pass random-label tests.
+Faithfulness,SHAP,Highest degradation rate when masking top-ranked features.
+Stability,SHAP (Local) / Permutation (Global),SHAP maintains feature rankings under 1-5% noise; LIME suffers from sampling jitter.
+Inter-Method Agreement,SHAP & Permutation,"Consensus on top credit risk drivers (ExternalRiskEstimate, delinquency)."
+Recommended Choice,SHAP (TreeExplainer),Ideal for adverse action credit explanations under ECOA/FCRA regulations.
